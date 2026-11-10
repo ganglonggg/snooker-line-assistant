@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "斯诺克画线助手",
+  "version": "0.1.0",
+  "description": "在斯诺克直播画面上识别球台和球，按一个球宽画出瞄准线、进球线和白球走位，并判断路线是否被挡。",
+  "content_scripts": [
+    {
+      "matches": ["*://*.huya.com/*"],
+      "js": ["src/content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "action": {
+    "default_title": "斯诺克画线：显示 / 隐藏"
+  },
+  "sandbox": {
+    "pages": ["src/engine.html"]
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["src/engine.html"],
+      "matches": ["*://*.huya.com/*"]
+    }
+  ]
+}

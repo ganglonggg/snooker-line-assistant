@@ -1,0 +1,223 @@
+{
+ "_comment": "Real ball positions (pixels in the image) and colours, used by test_stream.py and extension/test/run-tests.js",
+ "images": [
+  {
+   "image": "梯形桌面截屏.png",
+   "portrait": true,
+   "balls": [
+    {
+     "colour": "yellow",
+     "x": 1037.1,
+     "y": 233.0
+    },
+    {
+     "colour": "brown",
+     "x": 1224.2,
+     "y": 233.0
+    },
+    {
+     "colour": "green",
+     "x": 1412.3,
+     "y": 233.0
+    },
+    {
+     "colour": "blue",
+     "x": 1221.9,
+     "y": 513.0
+    },
+    {
+     "colour": "black",
+     "x": 902.7,
+     "y": 869.1
+    },
+    {
+     "colour": "pink",
+     "x": 614.9,
+     "y": 1005.8
+    },
+    {
+     "colour": "white",
+     "x": 1246.6,
+     "y": 995.7
+    },
+    {
+     "colour": "red",
+     "x": 1300.3,
+     "y": 791.8
+    },
+    {
+     "colour": "red",
+     "x": 1205.1,
+     "y": 816.5
+    },
+    {
+     "colour": "red",
+     "x": 1225.3,
+     "y": 836.6
+    },
+    {
+     "colour": "red",
+     "x": 1168.2,
+     "y": 846.7
+    },
+    {
+     "colour": "red",
+     "x": 1331.7,
+     "y": 832.2
+    },
+    {
+     "colour": "red",
+     "x": 1433.6,
+     "y": 861.3
+    },
+    {
+     "colour": "red",
+     "x": 1444.8,
+     "y": 908.3
+    },
+    {
+     "colour": "red",
+     "x": 1143.5,
+     "y": 894.9
+    },
+    {
+     "colour": "red",
+     "x": 1217.4,
+     "y": 881.4
+    },
+    {
+     "colour": "red",
+     "x": 1204.0,
+     "y": 916.2
+    },
+    {
+     "colour": "red",
+     "x": 1023.7,
+     "y": 1075.2
+    },
+    {
+     "colour": "red",
+     "x": 1374.2,
+     "y": 1088.6
+    }
+   ]
+  },
+  {
+   "image": "斯诺克.png",
+   "portrait": false,
+   "balls": [
+    {
+     "colour": "black",
+     "x": 418.0,
+     "y": 74.0
+    },
+    {
+     "colour": "pink",
+     "x": 546.0,
+     "y": 500.0
+    },
+    {
+     "colour": "blue",
+     "x": 1016.0,
+     "y": 507.0
+    },
+    {
+     "colour": "white",
+     "x": 1658.0,
+     "y": 423.0
+    },
+    {
+     "colour": "yellow",
+     "x": 1773.0,
+     "y": 438.0
+    },
+    {
+     "colour": "brown",
+     "x": 1652.0,
+     "y": 530.0
+    },
+    {
+     "colour": "green",
+     "x": 1613.0,
+     "y": 675.0
+    },
+    {
+     "colour": "red",
+     "x": 375.0,
+     "y": 468.0
+    },
+    {
+     "colour": "red",
+     "x": 413.0,
+     "y": 474.0
+    },
+    {
+     "colour": "red",
+     "x": 390.0,
+     "y": 498.0
+    },
+    {
+     "colour": "red",
+     "x": 419.0,
+     "y": 511.0
+    },
+    {
+     "colour": "red",
+     "x": 455.0,
+     "y": 524.0
+    },
+    {
+     "colour": "red",
+     "x": 479.0,
+     "y": 502.0
+    },
+    {
+     "colour": "red",
+     "x": 617.0,
+     "y": 610.0
+    },
+    {
+     "colour": "red",
+     "x": 1623.0,
+     "y": 707.0
+    }
+   ]
+  },
+  {
+   "image": "test_data/直播实测_主视角_球员遮挡.png",
+   "portrait": true,
+   "balls": [
+    {
+     "colour": "pink",
+     "x": 519.0,
+     "y": 356.0
+    },
+    {
+     "colour": "green",
+     "x": 586.0,
+     "y": 356.0
+    },
+    {
+     "colour": "blue",
+     "x": 521.0,
+     "y": 434.0
+    },
+    {
+     "colour": "brown",
+     "x": 519.0,
+     "y": 512.0
+    },
+    {
+     "colour": "black",
+     "x": 520.0,
+     "y": 569.0
+    },
+    {
+     "colour": "white",
+     "x": 683.0,
+     "y": 549.0
+    }
+   ]
+  }
+ ]
+}

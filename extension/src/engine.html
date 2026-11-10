@@ -1,0 +1,13 @@
+<!doctype html>
+<!--
+  Recognition engine. Runs as a sandboxed extension page in a hidden iframe inside the
+  stream page: OpenCV.js needs dynamic code generation, which only sandboxed extension
+  pages allow, and an extension iframe keeps the heavy work off the page's own thread.
+-->
+<meta charset="utf-8">
+<script src="../lib/opencv.js"></script>
+<script src="vision.js"></script>
+<script src="geometry.js"></script>
+<script src="tracking.js"></script>
+<script src="analyzer.js"></script>
+<script src="engine.js"></script>

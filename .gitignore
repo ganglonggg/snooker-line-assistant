@@ -1,0 +1,12 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# 运行和测试时生成的图片
+test_output/
+
+# 工具缓存
+.gstack/
+.DS_Store
